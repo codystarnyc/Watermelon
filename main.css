@@ -1,6 +1,12 @@
+.header h1{
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Lr1uWe2DTm3PZiRkxCj8bJxylKdNoultnVXmT_qhfWSfgJZL);
+  text-align: center;
+  justify-content: center;
+}
+
 .image-grid {
   display: grid;
-  grid-template: repeat(3, 150px) / repeat(3, 150px);
+  grid-template: 150px, 150px, 150px / 150px, 150px);
   grid-column-gap: 15px;
   grid-row-gap: 70px;
   justify-content: center;
@@ -9,11 +15,30 @@
                        "G H I";
 }
 
-.image-grid div:nth-child(6) {
+.image-grid div:nth-child(1) {
   grid-area: A;
-  background-position: 70% 30%;
+background-image: url(watermelon1.jpg);
 }
-
+.image-grid div:nth-child(2) {
+  grid-area: B;
+background-image: url(watermelon2.jpg);
+}
+.image-grid div:nth-child(3) {
+  grid-area: B;
+background-image: url(watermelon3.jpg);
+}
+.image-grid div:nth-child(4) {
+  grid-area: B;
+background-image: url(watermelon4.jpg);
+}
+.image-grid div:nth-child(5) {
+  grid-area: B;
+background-image: url(watermelon5.jpg);
+}
+.image-grid div:nth-child(6) {
+  grid-area: B;
+background-image: url(watermelon6.jpg);
+}
 .container > h1 {
   text-align: center;
   margin-bottom: 70px;
