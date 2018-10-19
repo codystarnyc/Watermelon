@@ -6,7 +6,7 @@
 
 .image-grid {
   display: grid;
-  grid-template: 150px, 150px, 150px / 150px, 150px);
+  grid-template: 150px, 150px, 150px / 150px, 150px;
   grid-column-gap: 15px;
   grid-row-gap: 70px;
   justify-content: center;
@@ -24,19 +24,19 @@ background-image: url(watermelon1.jpg);
 background-image: url(watermelon2.jpg);
 }
 .image-grid div:nth-child(3) {
-  grid-area: B;
+  grid-area: C;
 background-image: url(watermelon3.jpg);
 }
 .image-grid div:nth-child(4) {
-  grid-area: B;
+  grid-area: D;
 background-image: url(watermelon4.jpg);
 }
 .image-grid div:nth-child(5) {
-  grid-area: B;
+  grid-area: E;
 background-image: url(watermelon5.jpg);
 }
 .image-grid div:nth-child(6) {
-  grid-area: B;
+  grid-area: F;
 background-image: url(watermelon6.jpg);
 }
 .container > h1 {
@@ -60,4 +60,12 @@ background-image: url(watermelon6.jpg);
   text-align: center;
   padding: 3px;
   color: grey;
+}
+.list{
+
+  justify-content: center;
+}
+.footer p{
+  justify-content: center;
+  text-align: center;
 }
