@@ -6,7 +6,7 @@
 
 .image-grid {
   display: grid;
-  grid-template: 150px, 150px, 150px / 150px, 150px;
+  grid-template: 300px, 300px, 300px / 300px, 300px;
   grid-column-gap: 15px;
   grid-row-gap: 70px;
   justify-content: center;
@@ -18,25 +18,37 @@
 .image-grid div:nth-child(1) {
   grid-area: A;
 background-image: url(watermelon1.jpg);
+width: 150px;
+height: 150px;
 }
 .image-grid div:nth-child(2) {
   grid-area: B;
+  width: 150px;
+  height: 150px;
 background-image: url(watermelon2.jpg);
 }
 .image-grid div:nth-child(3) {
   grid-area: C;
+  width: 150px;
+  height: 150px;
 background-image: url(watermelon3.jpg);
 }
 .image-grid div:nth-child(4) {
   grid-area: D;
+  width: 150px;
+  height: 150px;
 background-image: url(watermelon4.jpg);
 }
 .image-grid div:nth-child(5) {
   grid-area: E;
+  width: 150px;
+  height: 150px;
 background-image: url(watermelon5.jpg);
 }
 .image-grid div:nth-child(6) {
   grid-area: F;
+  width: 150px;
+  height: 150px;
 background-image: url(watermelon6.jpg);
 }
 .container > h1 {
@@ -45,8 +57,7 @@ background-image: url(watermelon6.jpg);
 }
 
 .image-grid div {
-  background-image: url('https://www.thoughtco.com/thmb/6nxun6L3sYv1GIAHovgvOgXmLKc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/socrates-greece-athens-546975617-589b585e3df78c47586efb7d.jpg');
-  background-position: 50% 50%;
+  
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   transition: transform .5s;
 }
@@ -55,11 +66,7 @@ background-image: url(watermelon6.jpg);
   transform: scale(1.1);
 }
 
-.image-grid p {
-  margin-top: 160px;
-  text-align: center;
-  padding: 3px;
-  color: grey;
+
 }
 .list{
 
